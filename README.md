@@ -2,13 +2,15 @@
 
 The public privacy notice for **Aurora Content Studio**, an autonomous AI cinematic content studio.
 
-- **Live site:** https://sandeepyadav-lt.github.io/aurora-privacy/
-- **Source:** [`index.html`](./index.html) — a single, self-contained static page (no build step, no dependencies).
+- **Privacy Policy:** https://sandeepyadav-lt.github.io/aurora-privacy/ — [`index.html`](./index.html)
+- **Terms & Conditions:** https://sandeepyadav-lt.github.io/aurora-privacy/terms.html — [`terms.html`](./terms.html)
+
+Both are single, self-contained static pages (no build step, no dependencies).
 
 ## Editing
 
-Edit `index.html` and push to `main`. GitHub Pages redeploys automatically. Update the
-**"Last updated"** date in the page header whenever the policy changes materially.
+Edit `index.html` / `terms.html` and push to `main`. GitHub Pages redeploys automatically.
+Update the **"Last updated"** date in the page header whenever a document changes materially.
 
 ## Hosting
 

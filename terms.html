@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms &amp; Conditions — Aurora Content Studio</title>
+  <meta name="description" content="Terms and conditions for using Aurora Content Studio, an autonomous AI cinematic content studio." />
+  <meta name="robots" content="index, follow" />
+  <style>
+    :root {
+      --bg: #0b0d17;
+      --panel: #141729;
+      --text: #e8eaf2;
+      --muted: #9aa0b4;
+      --accent: #8b7cff;
+      --accent-2: #4fd1c5;
+      --border: #262a40;
+      --maxw: 760px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 600px at 70% -10%, #1c2042 0%, var(--bg) 55%);
+      color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-2); }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 56px 22px 96px; }
+    header.hero { margin-bottom: 40px; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; letter-spacing: .04em; text-transform: uppercase;
+      color: var(--accent); border: 1px solid var(--border);
+      background: var(--panel); padding: 6px 12px; border-radius: 999px;
+    }
+    h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin: 18px 0 10px; }
+    .sub { color: var(--muted); font-size: 16px; margin: 0; }
+    .meta { color: var(--muted); font-size: 14px; margin-top: 18px; }
+    .pagenav { margin-top: 14px; font-size: 14px; }
+    .pagenav a { text-decoration: none; }
+    .toc {
+      margin: 32px 0; padding: 18px 20px; background: var(--panel);
+      border: 1px solid var(--border); border-radius: 14px;
+    }
+    .toc strong { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 10px; }
+    .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 28px; }
+    .toc li { margin: 4px 0; }
+    .toc a { color: var(--text); text-decoration: none; }
+    .toc a:hover { color: var(--accent-2); }
+    section { margin: 40px 0; }
+    h2 {
+      font-size: 21px; margin: 0 0 12px; padding-top: 8px;
+      display: flex; align-items: baseline; gap: 10px;
+    }
+    h2 .n { color: var(--accent); font-size: 15px; font-variant-numeric: tabular-nums; }
+    h3 { font-size: 16px; margin: 22px 0 6px; color: var(--accent-2); }
+    p { margin: 10px 0; color: var(--text); }
+    ul { margin: 10px 0; padding-left: 22px; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    .callout {
+      background: linear-gradient(180deg, rgba(139,124,255,.10), rgba(79,209,197,.06));
+      border: 1px solid var(--border); border-left: 3px solid var(--accent);
+      padding: 14px 18px; border-radius: 10px; margin: 18px 0; color: var(--text);
+    }
+    .contact a { font-weight: 600; }
+    footer {
+      margin-top: 60px; padding-top: 22px; border-top: 1px solid var(--border);
+      color: var(--muted); font-size: 14px;
+    }
+    code { background: var(--panel); border: 1px solid var(--border); padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="badge">🎬 Aurora Content Studio</span>
+      <h1>Terms &amp; Conditions</h1>
+      <p class="sub">The rules that govern your use of Aurora Content Studio.</p>
+      <p class="meta"><strong>Last updated:</strong> May 27, 2026 &nbsp;·&nbsp; <strong>Effective:</strong> May 27, 2026</p>
+      <p class="pagenav">See also: <a href="./index.html">Privacy Policy →</a></p>
+    </header>
+
+    <div class="callout">
+      <strong>In short:</strong> Aurora is self-hosted software provided <em>as is</em>. You run it on
+      your own infrastructure, you own and are responsible for the content you generate and publish, and
+      you agree to use it lawfully. AI output can be imperfect — review it before you ship.
+    </div>
+
+    <nav class="toc">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#acceptance">Acceptance of terms</a></li>
+        <li><a href="#service">The service</a></li>
+        <li><a href="#license">License &amp; permitted use</a></li>
+        <li><a href="#ai">AI-generated content</a></li>
+        <li><a href="#responsibilities">Your responsibilities</a></li>
+        <li><a href="#third-parties">Third-party services</a></li>
+        <li><a href="#ip">Intellectual property</a></li>
+        <li><a href="#disclaimer">Disclaimers</a></li>
+        <li><a href="#liability">Limitation of liability</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#law">Governing law</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
+
+    <section id="acceptance">
+      <h2><span class="n">01</span> Acceptance of terms</h2>
+      <p>
+        By installing, running, or operating Aurora Content Studio ("Aurora", "we", "our"), you agree to
+        these Terms &amp; Conditions and to our
+        <a href="./index.html">Privacy Policy</a>. If you do not agree, do not use Aurora. These terms are
+        a plain-language agreement and do not constitute legal advice.
+      </p>
+    </section>
+
+    <section id="service">
+      <h2><span class="n">02</span> The service</h2>
+      <p>
+        Aurora is an autonomous, UI-driven AI studio that plans, writes, narrates, subtitles, scores,
+        renders, and stores short-form cinematic videos. It is designed to run on infrastructure
+        <strong>you control</strong> — your local machine or your own server. We do not host your content
+        or operate the studio on your behalf, and we do not guarantee continuous availability of any
+        third-party services Aurora depends on.
+      </p>
+    </section>
+
+    <section id="license">
+      <h2><span class="n">03</span> License &amp; permitted use</h2>
+      <p>
+        Subject to these terms, you are granted a non-exclusive, revocable right to use Aurora to create
+        content for lawful purposes. You agree not to:
+      </p>
+      <ul>
+        <li>use Aurora to create content that is unlawful, defamatory, infringing, hateful, or harmful;</li>
+        <li>impersonate others or generate deceptive content that misrepresents its AI origin where disclosure is required;</li>
+        <li>circumvent, disable, or interfere with security or rate-limiting features of Aurora or its providers;</li>
+        <li>resell or redistribute the software as your own without authorization; or</li>
+        <li>violate the terms of any third-party platform on which you publish Aurora's output.</li>
+      </ul>
+    </section>
+
+    <section id="ai">
+      <h2><span class="n">04</span> AI-generated content</h2>
+      <p>
+        Aurora uses AI providers (Google Gemini for text, Microsoft Edge TTS for narration) to generate
+        stories, scripts, audio, and analytics. AI output may be inaccurate, biased, or unexpectedly
+        similar to existing works. <strong>You are responsible for reviewing all generated content</strong>
+        before publishing or distributing it. We make no warranty that generated content is original,
+        accurate, or fit for any particular purpose.
+      </p>
+    </section>
+
+    <section id="responsibilities">
+      <h2><span class="n">05</span> Your responsibilities</h2>
+      <ul>
+        <li>You are solely responsible for the content you generate, store, and publish using Aurora.</li>
+        <li>You must keep your own API keys, <code>JWT_SECRET</code>, and database credentials secure.</li>
+        <li>You must comply with the terms and content policies of any platform you distribute to (e.g. Instagram, TikTok, YouTube Shorts).</li>
+        <li>You are responsible for the lawful operation of your own infrastructure, including backups and security.</li>
+      </ul>
+    </section>
+
+    <section id="third-parties">
+      <h2><span class="n">06</span> Third-party services</h2>
+      <p>
+        Aurora integrates with third-party services whose own terms apply to your use of them, including
+        <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Google's Terms of Service</a>
+        (for Gemini) and
+        <a href="https://www.microsoft.com/servicesagreement" target="_blank" rel="noopener">Microsoft's Services Agreement</a>
+        (for Edge TTS). We are not responsible for the availability, accuracy, or conduct of these
+        third parties. Your use of them is at your own risk and subject to their pricing and quotas.
+      </p>
+    </section>
+
+    <section id="ip">
+      <h2><span class="n">07</span> Intellectual property</h2>
+      <p>
+        The Aurora software, its name, and its design are the property of Aurora Content Studio.
+        Subject to the rights of the underlying AI providers and applicable law, <strong>content you
+        generate with Aurora is yours</strong> — we claim no ownership over your videos, scripts, audio,
+        or other outputs. You are responsible for ensuring you have the rights to any inputs you provide.
+      </p>
+    </section>
+
+    <section id="disclaimer">
+      <h2><span class="n">08</span> Disclaimers</h2>
+      <p>
+        Aurora is provided <strong>"as is" and "as available", without warranties of any kind</strong>,
+        whether express or implied, including but not limited to warranties of merchantability, fitness
+        for a particular purpose, non-infringement, and uninterrupted or error-free operation. You use
+        Aurora at your own risk.
+      </p>
+    </section>
+
+    <section id="liability">
+      <h2><span class="n">09</span> Limitation of liability</h2>
+      <p>
+        To the maximum extent permitted by law, Aurora Content Studio and its contributors shall not be
+        liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss
+        of data, revenue, or profits, arising out of or related to your use of Aurora — even if advised of
+        the possibility of such damages. Aurora is offered free of charge as self-hosted software, and our
+        aggregate liability shall not exceed the amount (if any) you paid us to use it.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2><span class="n">10</span> Changes to these terms</h2>
+      <p>
+        We may update these terms as Aurora evolves. Material changes will be reflected by updating the
+        "Last updated" date at the top of this page. Continued use of Aurora after an update means you
+        accept the revised terms.
+      </p>
+    </section>
+
+    <section id="law">
+      <h2><span class="n">11</span> Governing law</h2>
+      <p>
+        These terms are governed by the laws applicable in the operator's principal place of business,
+        without regard to conflict-of-law principles. Any disputes shall be resolved in the competent
+        courts of that jurisdiction.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2><span class="n">12</span> Contact</h2>
+      <p>
+        Questions about these terms? Reach us at
+        <a href="mailto:privacy@aurora.studio">privacy@aurora.studio</a>.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Aurora Content Studio · <a href="./index.html">Privacy Policy</a> · <a href="./terms.html">Terms &amp; Conditions</a><br />
+      These terms are provided for informational purposes and do not constitute legal advice.
+    </footer>
+  </div>
+</body>
+</html>
